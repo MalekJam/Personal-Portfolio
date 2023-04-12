@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/My project.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div class="hero" >   
+        <header>
+            <h1><span>M.</span>Jamoussi</h1>
+            <div class="navbar">
+                <a href="#AboutMe">About Me</a>
+                <a href="#Form">Form</a>
+                <a href="#vid">Video</a>
+                <a href="#foot">Contact Me</a>
+            </div>
+        </header>
+        <div id="content">
+            <h2>Hi, I'm <span>Malek</span></h2>
+            <p>WELCOME</p>
+        </div>
+        <video id="background-video" autoplay loop muted >
+        <source src="media/back.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section id="AboutMe">
+        <div class="main">
+            <img src="media/pic.jpg">
+            <div class="CONTENT">
+                <h2>About Me</h2>
+                <h4>ENSI Student</h4>
+                <h5>developer <span>& Designer</span></h5>
+                <p> Dedicated person with experience in  achieving tangible results and cross-team collaboration. 
+                    Proactive and excited  to partner with like -minded individuals to achieve goals.</p>
+                <a href="cv-index.html"><button type="button" >CV</button></a>
+            </div>
+        </div>
+    </section>
+    <div id="Form">
+        <fieldset>
+            <form>
+                <dl>
+                    <dt><label class="LB">Name</label></dt>
+                    
+                    <dt><input class="RC"type="text" id="nom" placeholder="Enter your name"></dt>
+                    
+
+                    <dt><label class="LB">Email</label></dt>
+                    
+                    <dt><input class="RC" type="email" id="email" placeholder="Enter your Email"></dt>
+                    
+
+                    
+                    <dt><label class="LB">Age (optional)</label></dt>
+                    
+                    <dt><input class="RC" type="text" id="age" placeholder="Age"></dt>
+                    
+
+                    <dt><label class="LB" >Which option best describes your current role?</label></dt>
+                    
+                    <dt><select class="RC" >
+                        <option disabled selected value>Select current role</option>
+                        <option >Student</option>
+                        <option >Full Time Job</option>
+                        <option >Full Time Learner</option>
+                        <option >Prefer not to say</option>
+                        <option >Other</option>
+                    </select></dt>
+                    
+
+                    <dt><label class="LB">Would you recommend freeCodeCamp to a friend?</label></dt>
+                    
+                    <dd><label><input type="radio" value="Definitely">Definitely</label></dd>
+                    
+                    <dd><label><input type="radio" value="Maybe">Maybe</label></dd>
+                    
+                    <dd><label><input type="radio" value="Not Sure">Not Sure</label></dd>
+                    
+
+                    <dt><label class="LB">What is your favourite feature of freeCodeCamp?</label></dt>
+                    
+                    <dt><select class="RC" >
+                        <option disabled selected value>Select an option</option>
+    
+                        <option >Challenges</option>
+                        <option >Projects</option>
+                        <option >Community</option>
+                        <option >Open Source</option>
+                        </select></dt>
+                    
+
+                    <dt><label class="LB">What would you like to see improved? (check all that apply)</label></dt>
+                    
+                    <dd><label><input  type="checkbox" value="Front-end Project">Front-end Project</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Back-end Project">Back-end Project</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Data Visualization">Data Visualization</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Challenges">Challenges</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Open Source Community">Open Source Community</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Gitter help rooms">Gitter help rooms</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Videos">Videos</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="City Meetups">City Meetups</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Wiki">Wiki</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Forum">Forum</label></dd>
+                    
+                    <dd><label><input type="checkbox" value="Additional Courses">Additional Courses</label></dd>
+                    
+                </dl>
+
+                <label class="LB" >Any comments or suggestions?</label>
+                
+                <textarea placeholder="Enter your comment here..." slot="fixed"></textarea>
+                
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </fieldset>
+    </div>
+    <div id="vid">
+        <video width="220" height="140" controls>
+            <source src="media/pic.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    <footer id="foot">
+        <div class="footer">
+            <div class="footer-content">
+                <ul>
+                    <li>Email: malek.jamoussi@ensi-uma.tn</li>
+                    <li>Phone: +216 27 345 071</li>
+                </ul>
+                <div class="socials">
+                    <a href="https://www.facebook.com/malek.jamoussi.7/"><img src="media/facebook.png"></a>
+                    <a href="#"><img src="media/twitter.png"></a>
+                    <a href="#"><img src="media/instagram.png"></a>
+                    <a href="https://www.linkedin.com/in/malek-jamoussi-4588881b3/"><img src="media/linkedin.png"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Malek Jamoussi | Designed by Malek Jamoussi
+            </div>
+        </div>
+</body>
+</html>
